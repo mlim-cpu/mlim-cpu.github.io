@@ -1,0 +1,26 @@
+h1{
+    font-family: Helvetica;
+    font-size: 40px;
+    color: green;
+}
+p{
+    font-family: Helvetica;
+}
+ul{
+    font-family: Georgia;
+}
+ol{
+    font-family: "Times New Roman", Times, serif;
+}
+.title{
+    font-size: 30px;
+    line-height: 100%;
+    color:;
+    background-color: ;
+    letter-spacing: 5px;
+}
+#instructions{
+    text-transform: uppercase;
+    text-shadow: 5px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    line-height: 110%;
+}
