@@ -1,0 +1,15 @@
+* {
+	 margin: 0;
+	 padding: 0;
+}
+ body {
+	 height:;
+	 background: url(https://i.ibb.co/gMthdXj/tree.jpg) 50% / cover;
+}
+ h1 {
+   font-family: "Times New Roman", Times, serif;
+	 color: white;
+	 mix-blend-mode: difference;
+	 font-size: 140px;
+	 text-align: left;
+}
