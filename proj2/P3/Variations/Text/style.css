@@ -5,31 +5,32 @@
 
 body {
 	height: ;
-	background: url(https://i.ibb.co/gMthdXj/tree.jpg) 50% / cover;
+	background: url(https://i.ibb.co/qdDbLHV/treev2.jpg) 50% / cover;
 }
 .main {
 	font-family: "Times New Roman", Times, serif font-stretch: expanded;
 	color: white;
 	mix-blend-mode: difference;
-	font-size: 140px;
+	font-size: 120px;
 	text-align: left;
-	padding: 20px 20px 20px 20px;
+	 padding: 20px 20px 20px 20px;
 }
 
 .title {
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
-	transform: scaleY(1);
+	transform: scaleY(2);
 	color: white;
 	mix-blend-mode: difference;
-	font-size: 100px;
+	font-size: 200px;
 	text-align: left;
-	padding: 20px 20px 20px 20px;
+	padding: 200px 20px 200px 20px;
 }
 
 #area img{
   position: fixed;
   width: 10%;
   z-index: 999;
-	color: white;e
+	color: white;
+
 }

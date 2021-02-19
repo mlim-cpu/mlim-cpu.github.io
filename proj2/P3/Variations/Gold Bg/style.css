@@ -5,7 +5,7 @@
 
 body {
 	height: ;
-	background: url(https://i.ibb.co/gMthdXj/tree.jpg) 50% / cover;
+	background: url(https://i.ibb.co/9q96gS5/bg2-2.jpg) 50% / cover;
 }
 .main {
 	font-family: "Times New Roman", Times, serif font-stretch: expanded;
@@ -31,5 +31,5 @@ body {
   position: fixed;
   width: 10%;
   z-index: 999;
-	color: white;e
+	color: white;
 }
