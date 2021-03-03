@@ -15,6 +15,26 @@ button {
   z-index: +5;
 }
 
+.center {
+font-family: "Times New Roman", Times, serif font-stretch: expanded;
+color: white;
+mix-blend-mode: difference;
+font-size: 140px;
+text-align: center;
+padding: 20px 20px 20px 20px;
+filter: blur(3px);
+}
+
+.center2 {
+font-family: "Times New Roman", Times, serif font-stretch: expanded;
+color: white;
+mix-blend-mode: difference;
+font-size: 20px;
+text-align: center;
+padding: 20px 20px 20px 20px;
+filter: blur(1px);
+}
+
 .main {
 	font-family: "Times New Roman", Times, serif font-stretch: expanded;
 	color: white;
@@ -169,12 +189,13 @@ button {
 width: 150px;
   height: 150px;
   background-image: url('https://i.ibb.co/pWgZh0b/speck-2.png');
-	    background-color: Transparent;
+	  background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden;
     outline:none;
+		float:right;
 }
 
 #speck2 {
@@ -187,19 +208,41 @@ width: 150px;
     cursor:pointer;
     overflow: hidden;
     outline:none;
+		float:left;
+}
+
+#speck3 {
+width: 150px;
+  height: 150px;
+  background-image: url('https://i.ibb.co/Y2QpmC9/speck-3transparent.png');
+	    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+		float:left;
+
+}
+
+#myDIV {
+  width: 100%;
+	position: fixed;
+	overflow: hidden;
 }
 
 @media screen and (max-width: 480px) {
 }
 
-@media screen and (min-width: 480px) {
-}
-
 @media screen and (min-width: 768px) {
+
 }
 
 @media screen and (min-width: 1024px) {
+
 }
 
 @media screen and (min-width: 1200px) {
+.main {
+
 }

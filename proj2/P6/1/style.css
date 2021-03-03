@@ -169,12 +169,13 @@ button {
 width: 150px;
   height: 150px;
   background-image: url('https://i.ibb.co/pWgZh0b/speck-2.png');
-	    background-color: Transparent;
+	  background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden;
     outline:none;
+		float:right;
 }
 
 #speck2 {
@@ -187,19 +188,34 @@ width: 150px;
     cursor:pointer;
     overflow: hidden;
     outline:none;
+		float:left;
+}
+
+#speck3 {
+
+
+}
+
+#myDIV {
+  width: 100%;
+	position: fixed;
+	overflow: hidden;
 }
 
 @media screen and (max-width: 480px) {
+	.main {
 }
-
-@media screen and (min-width: 480px) {
 }
 
 @media screen and (min-width: 768px) {
+
 }
 
 @media screen and (min-width: 1024px) {
+
 }
 
 @media screen and (min-width: 1200px) {
+.main {
+
 }
