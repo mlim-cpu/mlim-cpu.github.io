@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="em">
+
+<head>
+	<meta charset="utf-8">
+	<title>April Calendar</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="onloadFunction()">
+   <img class="images"  src="https://i.imgur.com/IBzVKBZ.png" id="imgID1"></img>
+<script>
+function onloadFunction() {
+  var amount = X; //The amount of loops
+  var arrayIDs = ["imgID1", "imgID2", "imgID3"];    //all the IDs of the images
+
+  for (i=1;i<=amount;i++) {
+
+   //First get the image height and width in a var
+   var element = document.getElementById(arrayIDs[i-1]);
+   var positionInfo = element.getBoundingClientRect();
+   var imgHeight = positionInfo.height;
+   var imgWidth = positionInfo.width;
+
+   //Then get the width and height of the screen. if the container is not the screen
+   //use the same code as above for the image width/height and change the imgID
+   //The the Id of the container element.
+   var screenWidth = window.innerWidth;
+   var screenHeight = window.innerHeight;
+
+   //Now generate a random top and left position for the image on page load
+   var imgLeft = Math.floor(Math.random() * (screenWidth - imgWidth));
+   var imgTop= Math.floor(Math.random() * (screenHeight - imgHeight));
+
+   //The reason to get the img and screen height and width is to not let the
+   //image
+   //overlap out of the screen
+
+
+   //Now set the image to correct position
+   document.getElementById(arrayIDs[i-1]).style.top = imgTop+"px";
+   document.getElementById(arrayIDs[i-1]).style.left = imgLeft+"px";
+  }
+}
+
+</script>
+	<h1>
+		APRIL 2021
+	</h1>
+
+	<div class="month">
+		<div class="week">
+			<div class="day">1st</div>
+			<div class="day">2nd</div>
+			<div class="day">3rd</div>
+			<div class="day">4th</div>
+			<div class="day">5th</div>
+			<div class="day">6th</div>
+			<div class="day">7th</div>
+		</div>
+		<div class="week">
+			<div class="day">8th</div>
+			<div class="day">9th</div>
+			<div class="day">10th</div>
+			<div class="day">11th</div>
+			<div class="day">12th</div>
+			<div class="day">13th</div>
+			<div class="day">14th</div>
+		</div>
+		<div class="week">
+			<div class="day">15th</div>
+			<div class="day">16th</div>
+			<div class="day">17th</div>
+			<div class="day">18th</div>
+			<div class="day">19th</div>
+			<div class="day">20th</div>
+			<div class="day">21st</div>
+		</div>
+		<div class="week">
+			<div class="day">22nd</div>
+			<div class="day">23rd</div>
+			<div class="day">24th</div>
+			<div class="day">25th</div>
+			<div class="day">26th</div>
+			<div class="day">27th</div>
+			<div class="day">28th</div>
+		</div>
+		<div class="week">
+			<div class="day">29th</div>
+			<div class="day">30th</div>
+			<div class="day"></div>
+			<div class="day"></div>
+			<div class="day"></div>
+			<div class="day"></div>
+			<div class="day"></div>
+		</div>
+	</div>
+
+	<br /><br>
+
+	</div>
+
+</body>
+
+</html>

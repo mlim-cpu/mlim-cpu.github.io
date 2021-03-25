@@ -1,0 +1,51 @@
+		body {
+		    background-image: url("https://previews.123rf.com/images/markusgann/markusgann1606/markusgann160600077/58824221-a-blue-sky-with-sun-and-clouds-background.jpg");
+		    height: auto;
+		    margin: 30px;
+		    background-position: center;
+		    background-size: cover;
+  }
+
+  h1 {
+      font-family: 'Times New Roman', Times, serif;
+      color:orangered;
+      font-size: 75px;
+      text-align: center;
+      margin-top: 10px;
+			box-shadow:
+					+2px +2px orangered,
+		      inset +10px +10px +10px +10px orangered;
+  }
+
+.images {
+  position: absolute;
+}
+
+.week {
+    display: flex;
+  }
+
+  .day {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+  }
+
+  .month {
+    max-width: 1060px;
+    margin: 50px auto;
+    margin-top: 90px;
+  }
+
+  .week {
+    height: 120px;
+  }
+
+  .day {
+    font-family:'Times New Roman', Times, serif;
+    color: orangered;
+    padding: 15px;
+    box-shadow:
+      +5px +5px orangered,
+      inset +5px +5px +10px +5px orangered;
+  }
