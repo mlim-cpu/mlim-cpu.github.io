@@ -11,15 +11,6 @@
   position: absolute;
 }
 
-#title img{
-	width: 20%;
-  height: 20%;
-  position: fixed;
-  top: 10%;
-  left: 10%;
-	object-fit: scale-down;
-}
-
 #p2 {
   position: fixed;
   top: 65%;
