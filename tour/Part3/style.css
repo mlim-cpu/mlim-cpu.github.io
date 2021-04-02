@@ -111,6 +111,7 @@ object-fit: str;
 #point{
  cursor:pointer;
 }
+
 #bmb1{
   position: fixed;
   top: 35.5%;
