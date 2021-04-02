@@ -118,3 +118,38 @@ object-fit: str;
   left: 40%;
  cursor:pointer;
 }
+
+#awp{
+position: fixed;
+top: 23.5%;
+left: 40%;
+cursor:pointer;
+}
+
+#ct{
+position: fixed;
+top: 34%;
+left: 50%;
+-webkit-animation: circle 4s linear infinite;
+}
+
+#t{
+position: fixed;
+top: 34%;
+left: 20%;
+-webkit-animation: reversecircle 4s linear infinite;
+}
+
+@-webkit-keyframes reversecircle {
+    from { -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -webkit-transform: rotate(-360deg) translateX(150px) rotate(360deg); }
+}
+
+#cloud{
+width: 500px;
+height: 200px;
+top: 34%;
+left: 20%;
+position: fixed;
+
+}
