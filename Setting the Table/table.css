@@ -1,0 +1,80 @@
+body {
+  background-color: grey;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  margin: 80px auto;
+  height: 400px;
+  width: 90%;
+}
+
+.tablecloth, .cup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.plate-1, .plate-2, .plate-3 {
+  position: absolute;
+  width: 250px;
+}
+
+.plate-1 {
+  left: 30px;
+  top: 30px;
+}
+
+.plate-2 {
+  right: 30px;
+  top: 30px;
+}
+.plate-1 {
+  left: 30px;
+  top: 130px;
+}
+.tablecloth {
+  z-index: 8;
+}
+
+.cup, .fork {
+  z-index: 10;
+}
+.fork {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.cloth {
+  height: 100%;
+  width: 100%;
+}
+
+.cup, .fork {
+  width: 80px;
+  height: 90px;
+}
+
+.plate {
+  height: 150px;
+  width: 150px;
+}
+
+.bahnmi {
+  display: none;
+  position: absolute;
+  top: 120px;
+  left: 80px;
+  z-index: 10;
+  width: 250px;
+}
+
+.greeksalad {
+  display: none;
+  position: absolute;
+  top: 180px;
+  left: 320px;
+  z-index: 10;
+  width: 250px;
+}
