@@ -100,7 +100,7 @@
                 var i = Math.floor( Math.random() * the_images.length );
                 return the_images[i];
             };
-            var total_number_of_images = 120;
+            var total_number_of_images = 175;
             var max_height = canvas.offsetHeight - icon_height;
             var max_width = canvas.offsetWidth - icon_width;
             var randomCoordinate = function(){
