@@ -1,0 +1,49 @@
+body {
+  background-color:black;
+  height:auto;
+  width:auto;
+}
+
+#cursor {
+}
+
+#container {
+position: fixed;
+background-color:black;
+}
+
+.inner {
+   max-width:100%;
+   height:auto;
+   max-height:100%;
+position: fixed;
+opacity:20%;
+filter:contrast(165%) brightness(103%);
+}
+
+.btn-group button {
+  background-color: white;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  opacity: 10%;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: orangered;
+  opacity: 50%;
+}

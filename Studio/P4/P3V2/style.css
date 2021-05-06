@@ -1,0 +1,20 @@
+body {
+  background-color:black;
+}
+
+#cursor {
+}
+
+#container {
+position: fixed;
+background-color:black;
+}
+
+.inner {
+   max-width:100%;
+   height:auto;
+   max-height:100%;
+position: fixed;
+opacity:20%;
+filter:contrast(150%) brightness(103%);
+}

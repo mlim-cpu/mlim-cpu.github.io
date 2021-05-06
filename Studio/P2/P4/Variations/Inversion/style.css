@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 200;
+}
+
+body {
+	height: ;
+	background: url(https://i.ibb.co/qdDbLHV/treev2.jpg) 50% / cover;
+}
+.main {
+	font-family: "Times New Roman", Times, serif font-stretch: expanded;
+	color: white;
+	mix-blend-mode: difference;
+	font-size: 140px;
+	text-align: left;
+	 padding: 20px 20px 20px 20px;
+}
+
+.title {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	transform: scaleY(1);
+	color: white;
+	mix-blend-mode: difference;
+	font-size: 100px;
+	text-align: left;
+	padding: 20px 20px 20px 20px;
+}
+
+#area img{
+  position: fixed;
+  width: 10%;
+  z-index: 999;
+	color: white;
+
+}
