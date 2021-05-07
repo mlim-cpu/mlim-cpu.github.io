@@ -2,7 +2,7 @@ $(document).ready(function() {
  var entryCount = 0;
  var displayCount = 0;
 
-  //capture key presses
+  //captures key presses
   $(document).on("keypress", function(e) {
     e.preventDefault();
     entryCount ++;
@@ -56,16 +56,17 @@ function createElement(k) {
   if (k == "z" || k == "Z") { elem.before('<span class="inner"><img src="assets/26.jpg"></span>'); }
   if (k == " ") { elem.before('<span class="inner">&nbsp;</span>') };
 }
+//ties keypresses to images
 
 document.querySelector('#button').addEventListener('click', function() {
         console.log("button is working")
         html2canvas(document.querySelector('.specific'), {
             onrendered: function(canvas) {
-                // document.body.appendChild(canvas);
               return Canvas2Image.saveAsPNG(canvas);
             }
         });
     });
+//adds a button that converts what the canvas looks like into a PNG
 
 });
 
@@ -73,8 +74,11 @@ function PopUp(hideOrshow) {
     if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
     else document.getElementById('ac-wrapper').removeAttribute('style');
 }
+//hidden state for the popup, removes the style elements
+
 window.onload = function () {
     setTimeout(function () {
         PopUp('show');
     }, 1);
 }
+//displays popup window on load
