@@ -168,7 +168,7 @@ filter: blur(1px);
 .title {
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
-	transform: scaleY(2);
+	transform: scaleY(1.5);
 	color: white;
 	mix-blend-mode: difference;
 	font-size: 200px;
